@@ -23,6 +23,9 @@ public class BeerDto {
     @Null
     private UUID id;
 
+    @Null
+    private Long version;
+
     @NotBlank
     private String beerName;
 
